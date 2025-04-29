@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#e74c3c"/>
+  <rect x="150" y="100" width="300" height="200" rx="10" fill="#ffffff"/>
+  <rect x="180" y="150" width="240" height="30" rx="5" fill="#ecf0f1"/>
+  <rect x="180" y="200" width="240" height="30" rx="5" fill="#ecf0f1"/>
+  <circle cx="200" cy="270" r="10" fill="#3498db"/>
+  <rect x="220" y="260" width="200" height="20" rx="5" fill="#ecf0f1"/>
+  <text x="300" y="360" font-family="Arial" font-size="24" text-anchor="middle" fill="#ffffff">Contact Harmony Carers</text>
+</svg> 

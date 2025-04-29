@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#ecf0f1"/>
+  <rect x="0" y="0" width="800" height="400" fill="#bdc3c7" opacity="0.3"/>
+  
+  <!-- Roads -->
+  <path d="M0,200 L800,200" stroke="#7f8c8d" stroke-width="10" />
+  <path d="M400,0 L400,400" stroke="#7f8c8d" stroke-width="15" />
+  
+  <!-- Buildings -->
+  <rect x="50" y="50" width="80" height="60" fill="#3498db" opacity="0.8"/>
+  <rect x="150" y="70" width="60" height="40" fill="#3498db" opacity="0.8"/>
+  <rect x="240" y="30" width="90" height="70" fill="#3498db" opacity="0.8"/>
+  
+  <rect x="50" y="250" width="100" height="80" fill="#3498db" opacity="0.8"/>
+  <rect x="180" y="270" width="70" height="60" fill="#3498db" opacity="0.8"/>
+  
+  <rect x="500" y="50" width="70" height="100" fill="#3498db" opacity="0.8"/>
+  <rect x="600" y="80" width="120" height="60" fill="#3498db" opacity="0.8"/>
+  
+  <rect x="500" y="250" width="90" height="70" fill="#3498db" opacity="0.8"/>
+  <rect x="620" y="270" width="120" height="90" fill="#3498db" opacity="0.8"/>
+  
+  <!-- Marker -->
+  <circle cx="400" cy="200" r="15" fill="#e74c3c"/>
+  <circle cx="400" cy="200" r="7" fill="#ffffff"/>
+  
+  <!-- Text -->
+  <text x="400" y="150" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">Harmony Carers</text>
+  <text x="400" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">123 Care Street, Birmingham, B1 2CD</text>
+</svg> 

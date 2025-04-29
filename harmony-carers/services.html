@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Harmony Carers' comprehensive range of NDIS-approved services designed to enhance independence and improve quality of life.">
+    <title>Our Services | Harmony Carers</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Decorative Elements -->
+    <div class="decorative-blob blob-1"></div>
+    <div class="decorative-blob blob-2"></div>
+    <div class="floating-elements">
+        <div class="floating-element element-1"><i class="fas fa-heart"></i></div>
+        <div class="floating-element element-2"><i class="fas fa-hands-helping"></i></div>
+        <div class="floating-element element-3"><i class="fas fa-home"></i></div>
+        <div class="floating-element element-4"><i class="fas fa-star"></i></div>
+        <div class="floating-element element-5"><i class="fas fa-user-check"></i></div>
+    </div>
+    <div class="color-transition-1" style="top: 20%; right: 15%;"></div>
+    <div class="color-transition-2" style="bottom: 30%; left: 10%;"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="img/harmony.png" alt="Harmony Carers Logo" class="logo-image">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html" class="active">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li>
+                            <label class="theme-switch" for="theme-toggle">
+                                <input type="checkbox" id="theme-toggle">
+                                <span class="slider">
+                                    <i class="fas fa-sun sun-icon"></i>
+                                    <i class="fas fa-moon moon-icon"></i>
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                    <button class="mobile-menu" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu-content">
+            <button class="mobile-menu-close" aria-label="Close menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="mobile-nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <label class="theme-switch" for="theme-toggle-mobile">
+                        <input type="checkbox" id="theme-toggle-mobile">
+                        <span class="slider">
+                            <i class="fas fa-sun sun-icon"></i>
+                            <i class="fas fa-moon moon-icon"></i>
+                        </span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero services-hero">
+        <div class="wave-shape"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Our Services</h1>
+                <p>Comprehensive NDIS-approved services tailored to meet your individual needs</p>
+                <div class="hero-cta">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="contact.html" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Filter -->
+    <section class="service-filter">
+        <div class="container">
+            <div class="filter-container">
+                <h3>Filter Services</h3>
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All Services</button>
+                    <button class="filter-btn" data-filter="employment">Employment</button>
+                    <button class="filter-btn" data-filter="transition">Life Transition</button>
+                    <button class="filter-btn" data-filter="personal">Personal Care</button>
+                    <button class="filter-btn" data-filter="transport">Transport</button>
+                    <button class="filter-btn" data-filter="home">Home Modifications</button>
+                    <button class="filter-btn" data-filter="nursing">Nursing Care</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="page-content" id="services">
+        <div class="container">
+            <div class="services-intro fade-in">
+                <p>At Harmony Carers, we provide a wide range of personalized support services under the National Disability Insurance Scheme (NDIS). Our dedicated team works closely with you to understand your unique needs and goals, creating tailored solutions that enhance your independence and quality of life.</p>
+                <p>All our services are delivered with compassion, respect, and a commitment to excellence, ensuring you receive the highest standard of care and support.</p>
+            </div>
+            
+            <div class="services-grid fade-in">
+                <!-- Employment Support -->
+                <div id="employment" class="service-card" data-category="employment">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="service-title">Employment Support</h3>
+                    <p class="service-description">We assist you in finding and maintaining meaningful employment opportunities that match your skills and interests.</p>
+                    <div class="service-details">
+                        <h4>What we offer:</h4>
+                        <ul>
+                            <li>Career counseling and planning</li>
+                            <li>Job search assistance</li>
+                            <li>Resume and interview preparation</li>
+                            <li>Workplace accommodations</li>
+                            <li>On-the-job support</li>
+                        </ul>
+                    </div>
+                    <div class="service-testimonial">
+                        <p>"Thanks to Harmony Carers' employment support, I found a job I love and feel confident in my abilities." - James R.</p>
+                    </div>
+                    <a href="#employment" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Life Transition -->
+                <div id="transition" class="service-card" data-category="transition">
+                    <div class="service-icon">
+                        <i class="fas fa-life-ring"></i>
+                    </div>
+                    <h3 class="service-title">Life Transition Support</h3>
+                    <p class="service-description">We provide guidance and support through important life transitions with personalized planning and assistance.</p>
+                    <div class="service-details">
+                        <h4>What we offer:</h4>
+                        <ul>
+                            <li>School to work transition planning</li>
+                            <li>Moving to independent living</li>
+                            <li>Coordination with various support systems</li>
+                            <li>Life skills development</li>
+                            <li>Emotional support during changes</li>
+                        </ul>
+                    </div>
+                    <div class="service-testimonial">
+                        <p>"The transition support helped me move into my own place with confidence. I couldn't have done it without Harmony Carers." - Emma T.</p>
+                    </div>
+                    <a href="#transition" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Personal Activities -->
+                <div id="personal" class="service-card" data-category="personal">
+                    <div class="service-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3 class="service-title">Personal Activities Assistance</h3>
+                    <p class="service-description">We provide help with daily personal care activities to maintain your independence and dignity.</p>
+                    <div class="service-details">
+                        <h4>What we offer:</h4>
+                        <ul>
+                            <li>Personal hygiene assistance</li>
+                            <li>Meal preparation support</li>
+                            <li>Medication management</li>
+                            <li>Mobility assistance</li>
+                            <li>Shopping and household management</li>
+                        </ul>
+                    </div>
+                    <div class="service-testimonial">
+                        <p>"The personal care team has been amazing. They treat me with respect and help me maintain my independence." - Sarah M.</p>
+                    </div>
+                    <a href="#personal" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Transport Assistance -->
+                <div id="transport" class="service-card" data-category="transport">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="service-title">Transport Assistance</h3>
+                    <p class="service-description">We provide support with transportation needs to help you access community services and activities.</p>
+                    <div class="service-details">
+                        <h4>What we offer:</h4>
+                        <ul>
+                            <li>Transport to medical appointments</li>
+                            <li>Community access transportation</li>
+                            <li>Transport for social activities</li>
+                            <li>Shopping and errands assistance</li>
+                            <li>Public transport training and support</li>
+                        </ul>
+                    </div>
+                    <div class="service-testimonial">
+                        <p>"The transport service has given me the freedom to go where I want, when I want. It's been life-changing." - Michael K.</p>
+                    </div>
+                    <a href="#transport" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Home Modifications -->
+                <div id="home" class="service-card" data-category="home">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="service-title">Home Modifications</h3>
+                    <p class="service-description">We help adapt your living environment to improve accessibility and enhance independence.</p>
+                    <div class="service-details">
+                        <h4>What we offer:</h4>
+                        <ul>
+                            <li>Accessibility assessments</li>
+                            <li>Installation of ramps and railings</li>
+                            <li>Bathroom and kitchen modifications</li>
+                            <li>Doorway widening</li>
+                            <li>Technology solutions for independence</li>
+                        </ul>
+                    </div>
+                    <div class="service-testimonial">
+                        <p>"The home modifications have made my house so much more accessible. I can move around freely now." - David L.</p>
+                    </div>
+                    <a href="#home" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Community Nursing -->
+                <div id="nursing" class="service-card" data-category="nursing">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="service-title">Community Nursing Care</h3>
+                    <p class="service-description">We deliver professional nursing services in the comfort of your home to support your health needs.</p>
+                    <div class="service-details">
+                        <h4>What we offer:</h4>
+                        <ul>
+                            <li>Medication administration</li>
+                            <li>Wound care</li>
+                            <li>Health monitoring</li>
+                            <li>Catheter and stoma care</li>
+                            <li>Health education and management</li>
+                        </ul>
+                    </div>
+                    <div class="service-testimonial">
+                        <p>"The nursing care is exceptional. The nurses are professional, caring, and always go the extra mile." - Patricia W.</p>
+                    </div>
+                    <a href="#nursing" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="service-process fade-in">
+                <h2 class="section-title">How We Work</h2>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-icon"><i class="fas fa-comments"></i></div>
+                        <h3>Initial Consultation</h3>
+                        <p>We meet with you to understand your needs, preferences, and goals.</p>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-icon"><i class="fas fa-clipboard-list"></i></div>
+                        <h3>Personalized Plan</h3>
+                        <p>We develop a tailored support plan aligned with your NDIS funding.</p>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-icon"><i class="fas fa-hands-helping"></i></div>
+                        <h3>Service Delivery</h3>
+                        <p>Our qualified team delivers the services according to your plan.</p>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-icon"><i class="fas fa-sync-alt"></i></div>
+                        <h3>Regular Reviews</h3>
+                        <p>We continuously monitor and adjust your support to ensure it meets your evolving needs.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services-cta fade-in">
+                <div class="cta-box">
+                    <h3>Ready to get started?</h3>
+                    <p>Contact us today to discuss how we can support your needs.</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">Book a Consultation</a>
+                        <a href="tel:+61404224417" class="btn btn-secondary"><i class="fas fa-phone-alt"></i> Call Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Harmony Carers</h3>
+                    <p>Empowering lives through compassionate care.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="vision.html">Our Vision</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li><a href="tel:+61404224417"><i class="fas fa-phone"></i> +61 404 224 417</a></li>
+                        <li><a href="mailto:contactus@harmonycarers.com.au"><i class="fas fa-envelope"></i> contactus@harmonycarers.com.au</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Harmony Carers. All rights reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="js/services.js"></script>
+</body>
+</html> 
